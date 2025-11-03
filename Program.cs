@@ -136,7 +136,7 @@ void CheckoutGuest()
         return;
     }
 
-    Room room = rooms.Find(r => r.RoomNumber == number);
+    Room room = rooms.Find(r => r.RoomNumber == number); // Tänkte demonstrera bägge sätten och göra detta på men så pröva jag den andra sättet och fick inte det å funka
     if (room == null)
     {
         Console.WriteLine("Rummet finns inte.");
